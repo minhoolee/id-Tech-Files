@@ -1,0 +1,21 @@
+﻿Build started 7/7/2015 11:32:47 AM.
+     1>Project "C:\Users\student\Desktop\Min Hoo L\Text\Text\Text.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(1): error C2653: 'sf' : is not a class or namespace name
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(1): error C2146: syntax error : missing ';' before identifier 'window'
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(1): error C3861: 'VideoMode': identifier not found
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(1): error C2078: too many initializers
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(1): error C2440: 'initializing' : cannot convert from 'const char [5]' to 'int'
+                 There is no context in which this conversion is possible
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(3): error C2059: syntax error : 'while'
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(4): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(4): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\student\desktop\min hoo l\text\text\main.cpp(16): error C2059: syntax error : 'return'
+     1>Done Building Project "C:\Users\student\Desktop\Min Hoo L\Text\Text\Text.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

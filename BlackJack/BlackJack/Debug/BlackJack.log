@@ -1,0 +1,49 @@
+﻿Build started 7/6/2015 5:12:36 PM.
+     1>Project "C:\Users\student\Desktop\Min Hoo L\BlackJack\BlackJack\BlackJack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt shuffleDeck.cpp
+         shuffleDeck.cpp
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(6): error C2065: 'card' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(6): error C2146: syntax error : missing ';' before identifier 'deckOfCards'
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(6): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(10): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(10): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(11): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(11): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(15): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(15): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(16): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(16): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(20): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(20): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(21): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(21): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(25): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(25): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(26): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(26): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(28): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(28): error C3861: 'shuffle': identifier not found
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(30): error C2065: 'card' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(30): error C2146: syntax error : missing ';' before identifier 'player1Hand'
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(30): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(31): error C2065: 'card' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(31): error C2146: syntax error : missing ';' before identifier 'player2Hand'
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(31): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(40): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(40): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(44): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(44): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(53): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(53): error C2228: left of '.displayCard' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(58): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(58): error C2228: left of '.displayCard' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(64): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(64): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(70): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\min hoo l\blackjack\blackjack\shuffledeck.cpp(70): error C2228: left of '.value' must have class/struct/union
+     1>Done Building Project "C:\Users\student\Desktop\Min Hoo L\BlackJack\BlackJack\BlackJack.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30
