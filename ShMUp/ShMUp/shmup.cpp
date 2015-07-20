@@ -286,11 +286,10 @@ PlayerBullet::PlayerBullet() : GameObject() {}
 // Enemy
 Enemy::Enemy() : GameObject() {}
 
-Enemy::Enemy(sf::Vector2f position, ShmupGame* game) : GameObject(position, game)\
+Enemy::Enemy(sf::Vector2f position, ShmupGame* game) : GameObject(position, game)
 {
 	sprite.setTexture(game->enemyTexture);
 	sprite.setOrigin(32, 32);
-
 }
 
 void Enemy::update(sf::Time timeElapsed)

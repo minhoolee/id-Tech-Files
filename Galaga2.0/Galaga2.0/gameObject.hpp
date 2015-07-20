@@ -2,6 +2,7 @@
 #define GAME_OBJECT_HPP
 
 #include <SFML/Graphics.hpp>
+#include <mutex>
 
 class GalagaGame;
 
@@ -12,9 +13,6 @@ public:
 	GalagaGame *game;
 
 	bool enabled = false;
-
-	// Take textures from this texture
-	sf::Texture mainTexture;
 
 	// Game properties
 	static const int GAME_WIDTH = 1600;

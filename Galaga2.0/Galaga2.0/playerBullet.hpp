@@ -15,7 +15,7 @@ public:
 
 	PlayerBullet();
 
-	void update(sf::Time t);
+	void update(sf::Time time);
 };
 
 #endif // PLAYER_BULLET_HPP

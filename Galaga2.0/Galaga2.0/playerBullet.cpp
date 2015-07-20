@@ -3,15 +3,17 @@
 
 PlayerBullet::PlayerBullet() : GameObject() 
 {
-	playerBulletTextureRect = sf::IntRect(12, 50, 25, 25);
-	sprite.setTexture(mainTexture);
+	playerBulletTextureRect = sf::IntRect(373, 50, 5, 10);
 	sprite.setTextureRect(playerBulletTextureRect);
-	sprite.setOrigin(12.5, 12.5);
+	sprite.setScale(3, 3);
 }
 
 void PlayerBullet::update(sf::Time timeElapsed)
 {
-	sprite.move(velocity * timeElapsed.asSeconds());
+	sprite.setTexture(game->mainTexture);
+
+	// Make sprite move upwards (negative)
+	sprite.move(-velocity * timeElapsed.asSeconds());
 
 	if (sprite.getPosition().y < 0)
 	{
@@ -24,8 +26,9 @@ void PlayerBullet::update(sf::Time timeElapsed)
 		{
 			enabled = false;
 			e.enabled = false;
-			game->player1Score++;
-			game->p1ScoreText.setString("Score: " + std::to_string(game->player1Score));
+			e.point_num = 0;
+			game->player1Score+=100;
+			game->p1ScoreText.setString(std::to_string(game->player1Score));
 		}
 	}
 }
